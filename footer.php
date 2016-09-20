@@ -18,7 +18,7 @@
 							<div class="site-info">
 								<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'base' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'base' ), 'WordPress' ); ?></a>
 								<span class="sep"> | </span>
-								<?php printf( esc_html__( "Theme: %1$s by %2$s.", "base" ), "base", "<a href='http://calumodonnell.co.uk/'>Calum O'Donnell</a>" ); ?>
+								<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'base' ), "base", "<a href='http://calumodonnell.co.uk/'>Calum O'Donnell</a>" ); ?>
 							</div>
 						</footer>
 					</div>
