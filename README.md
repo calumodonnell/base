@@ -3,9 +3,9 @@ Website: [http://calumodonnell.co.uk](http://calumodonnell.co.uk)
 
 
 # About
-I used the development of this theme as a way to increase my knowledge on WordPress theme creation and to develop a base theme to use on new projects.
-Based on the Underscores theme, created by Automatic, I have developed, 'base', a theme combining the Underscores with Bootstrap and Sass.
-This theme is available for use as a starter theme. I use 'base' as the parent theme and then I create my own child theme.
+I developed this theme as a way to increase my knowledge on WordPress and to create a starter theme to use on new projects.
+Based on the Underscores theme created by Automatic I have developed, 'base', a theme combining Underscores with Bootstrap 4.
+This theme is available to use as a starter theme.
 
 
 # Basic Features
