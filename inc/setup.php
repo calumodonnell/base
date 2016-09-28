@@ -82,3 +82,10 @@ function all_excerpts_get_more_link($post_excerpt) {
     return $post_excerpt . ' [...]<p><a class="btn btn-secondary base-read-more-link" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More...', 'base')  . '</a></p>';
 }
 add_filter('wp_trim_excerpt', 'all_excerpts_get_more_link');
+
+add_action( 'wp_default_scripts', function( $scripts ) {
+    if ( ! empty( $scripts->registered['jquery'] ) ) {
+        $jquery_dependencies = $scripts->registered['jquery']->deps;
+        $scripts->registered['jquery']->deps = array_diff( $jquery_dependencies, array( 'jquery-migrate' ) );
+    }
+} );
