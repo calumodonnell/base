@@ -23,8 +23,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 
 ## Changelog
-- 1.0 Sept. 20th 2016
-  - First Commit
+See [changelog](CHANGELOG.md)
 
 
 ## Installation
