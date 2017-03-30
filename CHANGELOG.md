@@ -1,1 +1,1 @@
-- ** 0.1 Dec. 10th 2014 - First commit**
+- ** 1.0 Sept. 20th 2016 - First commit**
